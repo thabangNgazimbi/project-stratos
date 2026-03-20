@@ -1,17 +1,21 @@
-# Object files
-*.o
+# Unreal generated
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
 
-# Libraries
-*.lib
-*.a
+# IDE/editor
+.vscode/
+.vs/
+.idea/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# OS files
+.DS_Store
+Thumbs.db
 
-# Executables
-*.exe
-*.out
-*.app
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
